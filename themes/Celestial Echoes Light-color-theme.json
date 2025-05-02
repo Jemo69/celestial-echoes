@@ -104,6 +104,22 @@
       "settings": {
         "foreground": "#5665dc"
       }
+    },
+    {
+      "name": "Tag",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#da5899"
+      }
+    },
+    {
+      "name": "HTML/JSX Attribute Names",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#997433" // Blue color for attributes
+      }
     }
+
+ 
   ]
 }

@@ -2,8 +2,8 @@
   "name": "celestial-echoes",
   "displayName": "Celestial Echoes",
   "description": "A dark theme inspired by celestial colors",
-  "version": "0.0.2",
-  "publisher": "jemo",
+  "version": "0.0.3",
+  "publisher": "Jemo69",
   "engines": {
     "vscode": "^1.96.0"
   },

@@ -128,8 +128,57 @@
       "name": "HTML/JSX Attribute Names",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#997433" // Blue color for attributes
+        "foreground": "#334499" // Blue color for attributes
+      }
+    },
+    {
+      "name": "HTML/JSX Div Names",
+      "scope": "entity.name.tag.structure.div.html",
+      "settings": {
+        "foreground": "#6677cc" // Blue color for attributes
+      }
+    },
+
+    {
+      "scope": "markup.heading.markdown",
+      "settings": {
+        "foreground": "#d12e80", // Example: Gold color
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "foreground": "#4055bf" // Example: Light Salmon color
+      }
+    },
+    {
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "foreground": "#e382b3", // Example: Pale Green color
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.inline.raw.string.markdown",
+      "settings": {
+        "foreground": "#bf9140" // Example: Light Blue color
+      }
+    },
+    // Markdown Links (text part)
+    {
+      "scope": "markup.underline.link.markdown",
+      "settings": {
+        "foreground": "#edabcc", // Example: Light Sky Blue color
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": "text.html.markdown", // Use the scope you found
+      "settings": {
+        "foreground": "#abb3ed" // Example: A light gray color
       }
     }
+    // Add more rules for
   ]
 }
