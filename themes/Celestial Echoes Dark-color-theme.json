@@ -1,0 +1,135 @@
+{
+  "name": "Celestial Echoes Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#050615",
+    "editor.foreground": "#eaecfb",
+    "activityBar.background": "#0a0c29",
+    "activityBar.foreground": "#2d40d2",
+    "activityBarBadge.background": "#2d40d2",
+    "activityBarBadge.foreground": "#eaecfb",
+    "sideBar.background": "#050615",
+    "sideBar.foreground": "#abb3ed",
+    "sideBarTitle.foreground": "#2d40d2",
+    "sideBarSectionHeader.background": "#0a0c29",
+    "editorGroupHeader.tabsBackground": "#131853", // Example: Light Blue
+    "tab.activeBackground": "#0a0c29",
+    "tab.inactiveBackground": "#050615",
+    "tab.activeForeground": "#2d40d2",
+    "tab.inactiveForeground": "#5766db",
+    "editorLineNumber.foreground": "#5766db",
+    "editorLineNumber.activeForeground": "#2d40d2",
+    "editorCursor.foreground": "#d12e80",
+    "editor.selectionBackground": "#334499",
+    "editor.inactiveSelectionBackground": "#0a0c29",
+    "editorIndentGuide.background": "#2433a8",
+    "editorIndentGuide.activeBackground": "#2d40d2",
+    "statusBar.background": "#2d40d2",
+    "statusBar.foreground": "#eaecfb",
+    "statusBar.debuggingBackground": "#d12e80",
+    "statusBar.debuggingForeground": "#eaecfb",
+    "titleBar.activeBackground": "#0a0c29",
+    "titleBar.activeForeground": "#2d40d2",
+    "titleBar.inactiveBackground": "#050615",
+    "titleBar.inactiveForeground": "#5766db",
+    "quickInput.background": "#050615", // Example: Dark gray background
+    "quickInput.foreground": "#da5899", // Example: Light gray text in input box
+    "quickInputList.focusBackground": "#0d1126", // Example: Dark blue background for selected item
+    "quickInputList.focusForeground": "#bf9140",
+    "menu.background": "#0a0c29", // Example: Dark gray background for the menu
+    "menu.foreground": "#b3bbe6", // Example: Light gray text for menu items
+    "menu.selectionBackground": "#1d237c", // Example: VS Code blue for selected item background
+    "menu.selectionForeground": "#a72566", // Example: White text for selected item
+    "menu.separatorBackground": "#bf9140", // Example: Medium gray for separators
+    "list.hoverBackground": "#272fa5", // Example: Slightly lighter gray on hover
+    "list.hoverForeground": "#edabcc" // Example: White text on hover
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#5766db"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string", "constant.other.symbol"],
+      "settings": {
+        "foreground": "#bf9140"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#d12e80"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#4055bf"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#d12e80"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "#2d40d2"
+      }
+    },
+    {
+      "name": "Class & Type",
+      "scope": ["entity.name.type", "entity.name.class", "support.type"],
+      "settings": {
+        "foreground": "#4055bf"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": ["constant", "variable.other.constant"],
+      "settings": {
+        "foreground": "#bf9140"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": ["invalid", "invalid.illegal"],
+      "settings": {
+        "foreground": "#d12e80",
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#5766db"
+      }
+    },
+    {
+      "name": "Tag",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#da5899"
+      }
+    },
+    {
+      "name": "HTML/JSX Attribute Names",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#997433" // Blue color for attributes
+      }
+    }
+  ]
+}

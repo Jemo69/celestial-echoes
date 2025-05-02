@@ -1,0 +1,37 @@
+{
+  "name": "celestial-echoes",
+  "displayName": "Celestial Echoes",
+  "description": "A dark theme inspired by celestial colors",
+  "version": "0.0.2",
+  "publisher": "jemo",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jemo69/celestial-echoes"
+  },
+  "license": "MIT",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Celestial Echoes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Celestial Echoes-color-theme.json"
+      },
+      {
+        "label": "Celestial Echoes Light",
+        "uiTheme": "vs",
+        "path": "./themes/Celestial Echoes Light-color-theme.json"
+      },
+      {
+        "label": "Celestial Echoes Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Celestial Echoes Dark-color-theme.json"
+      }
+    ]
+  }
+}
