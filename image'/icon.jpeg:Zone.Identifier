@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=http://10.0.0.204:8000/
+HostUrl=http://10.0.0.204:8000/api/localsend/v2/download?sessionId=10.0.0.32&fileId=7ab25e8a-8115-47ff-b36d-809968e213c2
