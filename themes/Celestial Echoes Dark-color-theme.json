@@ -12,7 +12,7 @@
     "sideBar.foreground": "#abb3ed",
     "sideBarTitle.foreground": "#2d40d2",
     "sideBarSectionHeader.background": "#0a0c29",
-    "editorGroupHeader.tabsBackground": "#131853", // Example: Light Blue
+    "editorGroupHeader.tabsBackground": "#000005", // Example: Light Blue
     "tab.activeBackground": "#0a0c29",
     "tab.inactiveBackground": "#050615",
     "tab.activeForeground": "#2d40d2",

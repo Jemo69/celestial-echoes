@@ -2,11 +2,11 @@
   "name": "celestial-echoes",
   "displayName": "Celestial Echoes",
   "description": "A dark theme inspired by celestial colors",
-  "version": "0.0.4",
-  "icon":"image'/icon.jpeg",
+  "version": "0.0.5",
+  "icon": "image'/icon.jpeg",
   "publisher": "Jemo",
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.86.0"
   },
   "repository": {
     "type": "git",
