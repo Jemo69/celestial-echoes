@@ -20,9 +20,9 @@
     "editorLineNumber.activeForeground": "#2b3fd4",
     "editorCursor.foreground": "#d02f80",
     "editor.selectionBackground": "#b3bbe6",
-    "editor.inactiveSelectionBackground": "#d6d8f5",
-    "editorIndentGuide.background": "#d5d9f6",
-    "editorIndentGuide.activeBackground": "#2b3fd4",
+    "editor.inactiveSelectionBackground": "#ffffff00",
+    "editorIndentGuide.background1": "#d5d9f6",
+    "editorIndentGuide.activeBackground1": "#2b3fd4",
     "statusBar.background": "#2b3fd4",
     "statusBar.foreground": "#eaecfb",
     "statusBar.debuggingBackground": "#d02f80",
@@ -30,7 +30,15 @@
     "titleBar.activeBackground": "#d6d8f5",
     "titleBar.activeForeground": "#2b3fd4",
     "titleBar.inactiveBackground": "#eaebfa",
-    "titleBar.inactiveForeground": "#5665dc"
+    "titleBar.inactiveForeground": "#5665dc",
+
+    "notifications.foreground": "#030714", // Your text color
+    "notifications.background": "#dde4fa",
+    "notifications.border": "#8ca6ed", // Your primary as a border
+    "notificationsErrorIcon.foreground": "#e03d5c", // Your accent for errors
+    "notificationsWarningIcon.foreground": "#eaebfa", // Your secondary for warnings
+    "notificationsInfoIcon.foreground": "#8ca6ed", // Your primary for info
+    "notificationLink.foreground": "#8ca6ed"
   },
   "tokenColors": [
     {
@@ -118,8 +126,46 @@
       "settings": {
         "foreground": "#997433" // Blue color for attributes
       }
+    },
+    {
+      "scope": "markup.heading.markdown",
+      "settings": {
+        "foreground": "#d12e80", // Example: Gold color
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "foreground": "#4055bf" // Example: Light Salmon color
+      }
+    },
+    {
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "foreground": "#e382b3", // Example: Pale Green color
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.inline.raw.string.markdown",
+      "settings": {
+        "foreground": "#bf9140" // Example: Light Blue color
+      }
+    },
+    // Markdown Links (text part)
+    {
+      "scope": "markup.underline.link.markdown",
+      "settings": {
+        "foreground": "#edabcc", // Example: Light Sky Blue color
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": "text.html.markdown", // Use the scope you found
+      "settings": {
+        "foreground": "#abb3ed" // Example: A light gray color
+      }
     }
-
- 
   ]
 }

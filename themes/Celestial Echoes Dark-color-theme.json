@@ -12,7 +12,7 @@
     "sideBar.foreground": "#abb3ed",
     "sideBarTitle.foreground": "#2d40d2",
     "sideBarSectionHeader.background": "#0a0c29",
-    "editorGroupHeader.tabsBackground": "#000005", // Example: Light Blue
+    "editorGroupHeader.tabsBackground": "#050615", // Example: Light Blue
     "tab.activeBackground": "#0a0c29",
     "tab.inactiveBackground": "#050615",
     "tab.activeForeground": "#2d40d2",
@@ -21,9 +21,9 @@
     "editorLineNumber.activeForeground": "#2d40d2",
     "editorCursor.foreground": "#d12e80",
     "editor.selectionBackground": "#334499",
-    "editor.inactiveSelectionBackground": "#0a0c29",
-    "editorIndentGuide.background": "#2433a8",
-    "editorIndentGuide.activeBackground": "#2d40d2",
+    "editor.inactiveSelectionBackground": "#0a0c2900",
+    "editorIndentGuide.background1": "#2433a8",
+    "editorIndentGuide.activeBackground1": "#2d40d2",
     "statusBar.background": "#2d40d2",
     "statusBar.foreground": "#eaecfb",
     "statusBar.debuggingBackground": "#d12e80",
@@ -42,7 +42,15 @@
     "menu.selectionForeground": "#a72566", // Example: White text for selected item
     "menu.separatorBackground": "#bf9140", // Example: Medium gray for separators
     "list.hoverBackground": "#272fa5", // Example: Slightly lighter gray on hover
-    "list.hoverForeground": "#edabcc" // Example: White text on hover
+    "list.hoverForeground": "#edabcc", // Example: White text on hover
+
+    "notifications.foreground": "#dde4fa",     // Your text color
+    "notifications.background": "#030714",
+    "notifications.border": "#8ca6ed",        // Your primary as a border
+    "notificationsErrorIcon.foreground": "#e03d5c", // Your accent for errors
+    "notificationsWarningIcon.foreground": "#bf9140", // Your secondary for warnings
+    "notificationsInfoIcon.foreground": "#8ca6ed", // Your primary for info
+    "notificationLink.foreground": "#8ca6ed"
   },
   "tokenColors": [
     {
